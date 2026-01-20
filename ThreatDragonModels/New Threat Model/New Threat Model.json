@@ -19,7 +19,7 @@
         "cells": [
           {
             "position": {
-              "x": 260,
+              "x": 270,
               "y": 220
             },
             "size": {
@@ -35,6 +35,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -118,7 +119,6 @@
               ]
             },
             "id": "42e28451-5290-4e96-a342-cd71fd37f73e",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
@@ -152,6 +152,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -235,7 +236,6 @@
               ]
             },
             "id": "98fd3bc5-5bae-4869-9405-adf7f983f396",
-            "zIndex": 2,
             "data": {
               "type": "tm.Store",
               "name": "Store",
@@ -270,6 +270,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -353,7 +354,6 @@
               ]
             },
             "id": "48d07797-c5b7-4ddc-b8b6-8cae956b8874",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Process",
